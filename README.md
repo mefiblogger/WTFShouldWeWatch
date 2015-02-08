@@ -22,4 +22,4 @@ Then open your fucking browser at this URL: http://localhost:3000/
 
 ## Copy fucking rights
 
-This was fucking inspired by [WTFSIGTE](http://wtfsigte.com/) and made by [Mefi](http://mefi.be/) with MIT license.
+This was fucking inspired by [WTFSIGTE](http://wtfsigte.com/) and made by [Mefi](http://mefi.be/) with MIT license using [OMDb](http://omdbapi.com/) API.
