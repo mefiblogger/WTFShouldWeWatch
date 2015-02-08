@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta author="Mefi" />
+
+    <title>{% block title %}What The Fuck Should We Watch?! - The Rude Movie Recommendation System{% endblock %}</title>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700,300&subset=latin,latin-ext" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>{% block header %}What The Fuck Should We Watch{% endblock %}</h1>
+        </header>
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+        <footer>
+            This fucking site was inspired by
+            <a href="http://wtfsigte.com/" target="wtfsigte">WTFSIGTE</a>
+            and created by <a href="http://mefi.be/">Mefi</a> in 2015
+            using <a href="http://www.omdbapi.com/" target="omdb">OMDb</a> API.
+        </footer>
+    </div>
+</body>
+</html>

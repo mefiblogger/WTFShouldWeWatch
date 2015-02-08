@@ -1,0 +1,13 @@
+{
+    "name" : "WTFShouldWeWatch",
+    "description" : "A fucking movie recommendation application.",
+    "author": "Mefi <mefi@mefi.be>",
+    "version" : "1.0.0",
+    "repository" : "https://github.com/mefiblogger/WTFShouldIWatch",
+    "dependencies": {
+        "express" : "4.*",
+        "swig" : "1.4.2",
+        "request" : "2.*",
+        "promise" : "6.1.*"
+    }
+}

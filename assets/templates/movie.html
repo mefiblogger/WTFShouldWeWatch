@@ -1,0 +1,36 @@
+        {% extends 'base.html' %}
+
+        {% block title %}You Should Fucking Watch {{ movie.Title }}{% endblock %}
+
+        {% block header %}You Should Fucking Watch:{% endblock %}
+
+        {% block content %}
+        <div id="movie">
+
+            <div class="data">
+                <h2>
+                    <a href="http://imdb.com/title/{{ movie.imdbID }}" target="imdb">
+                        {{ movie.Title }}
+                    </a>
+                </h2>
+                <p class="info">
+                    {{ movie.Year }},
+                    {{ movie.imdbRating }},
+                    directed by {{ movie.Director }}
+                </p>
+                <p>{{ movie.Plot }}</p>
+                <p class="info">With {{ movie.Actors }}</p>
+                <p class="info">Written by {{ movie.Writer }}</p>
+            </div>
+
+            <div class="poster">
+                <img alt="{{ movie.Title }} movie's poster" src="{{ movie.Poster }}" />
+            </div>
+        </div>
+
+        <nav class="bottom">
+            <a href="/recommend-me-a-fucking-movie">
+                No, this  movie looks like shit!
+            </a>
+        </nav>
+        {% endblock %}
