@@ -2,6 +2,8 @@
 
 Guess what: this is a movie recommendation app. If you can't choose a fucking movie to watch, this will help.
 
+Check it online here, it's running on Heroku: http://wtfsww.mefi.be/
+
 ## How can I install this shit?
 
 Run this fucking command:
