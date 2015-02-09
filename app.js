@@ -43,6 +43,6 @@ app.get('/recommend-me-a-fucking-movie', function (req, res) {
 app.use('/images', express.static(__dirname + '/assets/images'));
 app.use('/css', express.static(__dirname + '/assets/css'));
 
-server = app.listen(process.argv[2] || 3000, function () {
+server = app.listen(process.env.PORT || process.argv[2] || 3000, function () {
     console.log("[app] start - port:%s", server.address().port);
 })
