@@ -225,7 +225,7 @@ module.exports = function () {
         "Groundhog Day",
         "Harry Potter and the Deathly Hallows: Part 2",
         "Ip Man",
-        "Fanny och Alexander",
+        "Fanny and Alexander",
         "Rocky",
         "The Battle of Algiers",
         "The Night of the Hunter",
