@@ -3,7 +3,7 @@
 
 var request = require("request"),
     util = require("util"),
-    Promise = require("Promise");
+    Promise = require("promise");
 
 module.exports = function () {
 
