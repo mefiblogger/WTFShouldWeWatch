@@ -60,7 +60,7 @@ module.exports = function () {
         "Das Leben der Anderen",
         "The Lion King",
         "Django Unchained",
-        "Nuovo Cinema Paradiso",
+        "Cinema Paradiso",
         "The Dark Knight Rises",
         "The Shining",
         "Paths of Glory",
